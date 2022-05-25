@@ -79,10 +79,10 @@ ON F.CD_DEPARTAMENTO = D.CD_DEPARTAMENTO
 JOIN BANCOS AS B ON F.CD_BANCO = B.CD_BANCO
 
 /*
-Selacionar os funcion�rios que
+Selacionar os funcionários que
 tenham conta no banco do brasil e trabalhem no departamento de desenvolvimento ou
-que trabalhem no departamento de recursos humanos e n�o tenham conta em nenhum banco,
-mostrando o nome do funcion�rio, o departamento e o banco
+que trabalhem no departamento de recursos humanos e não tenham conta em nenhum banco,
+mostrando o nome do funcionário, o departamento e o banco
 */
 
 SELECT * FROM FUNCIONARIOS AS F
@@ -127,12 +127,12 @@ CASE
 END AS TIPO,
 CASE
 	WHEN YEAR(F.DT_ADMISSAO) > 2014 AND NM_BANCO = 'Bradesco' AND NU_AGENCIA = 5004 THEN VL_SALARIO *1.1235
-	WHEN YEAR(F.DT_ADMISSAO) BETWEEN 2000 AND 2014 AND NM_BANCO = 'Caixa Econ�mica Federal' THEN VL_SALARIO *1.15
-END AS [Sal�rio Previsto]
+	WHEN YEAR(F.DT_ADMISSAO) BETWEEN 2000 AND 2014 AND NM_BANCO = 'Caixa Econômica Federal' THEN VL_SALARIO *1.15
+END AS [Salário Previsto]
 FROM FUNCIONARIOS F JOIN BANCOS B ON F.CD_BANCO = B.CD_BANCO
 
 /*
-Fazer um relat�rio que para cada departamento mostre o nome do departamento e a quantidade
+Fazer um relatório que para cada departamento mostre o nome do departamento e a quantidade
 de pessoas que foram admitidos antes do ano 2000, entre o ano 2000 e 2014 e depois de 2014.
 */
 
