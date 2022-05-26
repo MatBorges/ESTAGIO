@@ -1,0 +1,8 @@
+1 - 
+2 - Declaração de serviços contratados, Consultar ou retificar serviços contratados, Gerar um livro fiscal e gerar a guia de recolhimento.
+3 - Não. Os portais precisam ter a licença e emissor
+4 - Primeiro deve verificar a competencia e fazer todas as declarações, na aba de fechamento de competencia gerar guia para serviços contratados e prestados
+5 - Todas as empresas vinculadas ao CPF
+6 - Domicilio Tributário eletrônico, serve como comunicação com o contribuinte quando há pendências, gerando uma multa ou intimação
+7 - Só quando o prestador não emite NFSe, pois quando o prestador emite NFSe o sistema já adiciona automaticamente
+8 - O livro permite a empresa ter um maior controle sobre os tributos pagos pela empresa. Localizado no ISS.NET na aba de livro fiscal

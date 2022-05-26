@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+body, html {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lines {
+  width: 80%;
+  display: inherit;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 390px;
+}
+.cardContainner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 342px;
+  overflow-x: scroll;
+}
+.addDiv {
+  display: inherit;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.addIcon {
+  width: 80px;
+}
+
+.valueResult {
+  margin: 20px;
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 15px;
+  max-height: 100px;
+  font-size: 28px;
+  border: 1px solid green;
+  width: 100%;
+  white-space: nowrap;
+}
+.tamanhoTotal {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

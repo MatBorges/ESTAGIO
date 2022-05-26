@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+  min-width: 200px;
+  height: 280px;
+  margin-left: 20px;
+}
+.card input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-left: 5px;
+  text-align: center;
+}
+#deleteColumn {
+  width: 70%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(223, 223, 223);
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(190, 190, 190);
+}

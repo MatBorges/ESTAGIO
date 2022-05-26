@@ -1,0 +1,54 @@
+1 - Notas fiscais eletrônicas
+
+2 - Classifica o ramo da atividade
+    define a aliquota
+    Complementa a CNAE    
+
+3 - Muncipios portal
+	Onde os prestasores pagam pelo sistema de emissao de NFSes
+    Muncipios completos
+	O Muncipio arca com os custos do sistema de NFSes
+
+4 - Simples Nacional Regime tributário simplificado, aliquota varia de 2% a 5%
+    MEI (Micro empreendedor individual) transforma o trabalhador em uma pessoa juridica
+
+5 - É usado pelos municipios portais para emitor, cancelar, consultar NFSes, tbm tem a funcionalidade de gestão das NFSes 
+
+6 - Sim, para prestadores de serviços cadastrados em municipios portais, Inscrição municipal ativa
+
+7 - Não altera nda no cadastro geral no contribuinte
+
+8 - É o periodo de apuração, referece a um mês (ex.: Janeiro, Fevereiro e etc...), fechamento da guia mensal emitir notas retroativas
+
+9 - O painel é utilizado para acessar os sistemas (ISS, Emissor de nora e Portal para compra da licença);
+
+10 - Depende do Muncipio, caso no municipio não exista uma regra de prazo para cancelar pode SIM ser solicitado o cancelamento 
+     a qualquer momento
+
+11 - É um parametro exclusivo da descrição, sua ultilização varia de municipio p/ municipio e serve para corrigir uma NFSes
+
+12 - O prestador de um municipio completo tem acesso livre para emissão de notas atraves de um único portal, 
+     já em um municipio portal o prestados de serviços precisa pagar um licença para usar o sistema, mas dispõe de mais funcionalidades, como o gestor
+
+13 - O Prestador é contratado pelo Tomador p/ realizar algum serviço
+
+14 - O gestor é ima funcionalidade do emissor de NFSe é usado para gerir as NFSe da empresa
+
+
+
+
+1 - Tem um menu no lado esquerdo com algumas funcionalidades e um campo de consulta 
+2 - 
+3 - No menu lateral na opção de consultar nota
+4 - Vizualizar
+    Cancelar
+    Mensagem do fiscal
+    exportar XML
+    
+    Imprimir ou salvar PDF
+    enviar por email
+    Carta de correção
+5 - Não, alguns icones dependem das regras do municipio
+6 - Diretamente com o municipio na aba solicitação de cancelamento
+7 - O gestor auxilia os contribuinte dos municipios portais a gerenciar as notas geradas por ele, o contribuinte pode filtar, baixar e imprimr
+8 - Se tiver um cadastro ativo no municipio e se tiver uma licença válida, menos cuiaba e dourados que tem acesso total especial

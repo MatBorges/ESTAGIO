@@ -1,0 +1,14 @@
+TOMADOR
+CNPJ: 32244252447564
+IM: 1988
+Razão: Prestador_Integração
+Rua: Alameda Aciba Helou Carneiro
+Numero: 187
+Bairro: Residencial Monte Sinai
+Cidade IBGE: 5201108
+Estado: GO
+CEP: 75074862
+
+PRESTADOR
+CNPJ: 69549400450004
+IM: 154895648564

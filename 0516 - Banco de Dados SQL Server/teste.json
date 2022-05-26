@@ -1,0 +1,18 @@
+[
+  {
+    "NM_DEPARTAMENTO": "Desenvolvimento",
+    "MENOR_SALARIO": 500.00
+  },
+  {
+    "NM_DEPARTAMENTO": "Editoração",
+    "MENOR_SALARIO": 800.00
+  },
+  {
+    "NM_DEPARTAMENTO": "Financeiro",
+    "MENOR_SALARIO": 200.00
+  },
+  {
+    "NM_DEPARTAMENTO": "Recursos Humanos",
+    "MENOR_SALARIO": 180.00
+  }
+]

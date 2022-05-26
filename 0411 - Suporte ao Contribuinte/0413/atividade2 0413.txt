@@ -1,0 +1,12 @@
+1 - Sistema de gestão tributária
+2 - O cadastro Geral é o cadastro que tem na prefeitura (válida prestadores e tomadores com inscrição ativa), já o cadastro preliminar é o cadastro do manager (cadastrado como tomador)
+3 - Correção de cadastro Preliminar e reset de senha
+4 - verificar se o CPF tem cadastro ativo na prefeitura e se está vinculado a alguma empresa
+5 - Preliminar, o cadastro geral é responsabilidade da prefeitura
+6 - 
+7 - Não pois duas estão inativas
+8 - ISS MANAGER é um usuário SIS e ISS ONLINE é um Usuário WEB
+9 - No cadastro Geral, no final da página
+10 - No portal admin
+
+

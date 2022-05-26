@@ -1,0 +1,2 @@
+Online = http://www.issnetonline.com.br/homologaAbrasf/online/Default/Master.aspx
+Manager = https://homologacao.issnetonline.com.br/manager/login

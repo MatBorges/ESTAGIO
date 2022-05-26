@@ -1,0 +1,76 @@
+<ConsultarDadosCadastraisResposta xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/servico_consultar_dados_cadastrais_resposta.xsd">
+  <IdentificacaoPrestador xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+    <CpfCnpj>
+      <Cnpj>08695055000175</Cnpj>
+    </CpfCnpj>
+    <InscricaoMunicipal>6729700</InscricaoMunicipal>
+  </IdentificacaoPrestador>
+  <RazaoSocial>A Marques &amp; A Lemos Ltda</RazaoSocial>
+  <ListaCnae>
+    <Cnae xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <CodigoCnae>6201500</CodigoCnae>
+      <DescricaoCnae>(Código incompatível com CNAE 2.2 Subclasses) Desenvolvimento de programas de computador sob encomenda</DescricaoCnae>
+      <Principal>1</Principal>
+    </Cnae>
+    <Cnae xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <CodigoCnae>111301</CodigoCnae>
+      <DescricaoCnae>Cultivo de arroz</DescricaoCnae>
+      <Principal>2</Principal>
+    </Cnae>
+    <Cnae xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <CodigoCnae>4291000</CodigoCnae>
+      <DescricaoCnae>Obras portuárias, marítimas e fluviais</DescricaoCnae>
+      <Principal>2</Principal>
+    </Cnae>
+  </ListaCnae>
+  <ListaAtividade>
+    <Atividade xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <CodigoAtividade>7</CodigoAtividade>
+      <DescricaoAtividade>Atividade - 3 %</DescricaoAtividade>
+      <Aliquota>3.00</Aliquota>
+      <VigenciaInicial>2013-03-25T00:00:00</VigenciaInicial>
+    </Atividade>
+    <Atividade xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <CodigoAtividade>712</CodigoAtividade>
+      <DescricaoAtividade>Controle e tratamento de efluentes de qualquer natureza e de agentes físicos, químicos e biológicos.</DescricaoAtividade>
+      <Aliquota>5.00</Aliquota>
+      <VigenciaInicial>2017-01-01T00:00:00</VigenciaInicial>
+      <VigenciaFinal>2017-03-31T00:00:00</VigenciaFinal>
+    </Atividade>
+  </ListaAtividade>
+  <ListaNaturezaOperacao>
+    <NaturezaOperacao xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <CodigoNaturezaOperacao>1</CodigoNaturezaOperacao>
+      <DescricaoNaturezaOperacao>Tributação no município</DescricaoNaturezaOperacao>
+      <VigenciaInicial>2013-01-01T00:00:00</VigenciaInicial>
+    </NaturezaOperacao>
+    <NaturezaOperacao xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <CodigoNaturezaOperacao>2</CodigoNaturezaOperacao>
+      <DescricaoNaturezaOperacao>Tributação fora do município</DescricaoNaturezaOperacao>
+      <VigenciaInicial>2013-01-01T00:00:00</VigenciaInicial>
+      <VigenciaFinal>2017-12-31T00:00:00</VigenciaFinal>
+    </NaturezaOperacao>
+  </ListaNaturezaOperacao>
+  <ListaSimplesNacional>
+    <SimplesNacional xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <OptanteSimplesNacional>1</OptanteSimplesNacional>
+      <VigenciaInicial>2016-01-01T00:00:00</VigenciaInicial>
+      <VigenciaFinal>2016-12-31T00:00:00</VigenciaFinal>
+    </SimplesNacional>
+    <SimplesNacional xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <OptanteSimplesNacional>1</OptanteSimplesNacional>
+      <VigenciaInicial>2017-01-01T00:00:00</VigenciaInicial>
+      <VigenciaFinal>2017-12-31T00:00:00</VigenciaFinal>
+    </SimplesNacional>
+  </ListaSimplesNacional>
+  <ListaMei>
+    <Mei xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+      <Mei>1</Mei>
+      <VigenciaInicial>2017-01-01T00:00:00</VigenciaInicial>
+      <VigenciaFinal>2017-07-31T00:00:00</VigenciaFinal>
+    </Mei>
+  </ListaMei>
+  <PermiteDeducao>1</PermiteDeducao>
+  <PermiteDescontoIncondicionado>2</PermiteDescontoIncondicionado>
+  <PermiteDescontoCondicionado>1</PermiteDescontoCondicionado>
+</ConsultarDadosCadastraisResposta>

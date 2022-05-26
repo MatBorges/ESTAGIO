@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConsultarLoteRpsResposta xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/servico_consultar_lote_rps_resposta.xsd" xmlns:tc="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
+  <ListaNfse>
+    <CompNfse>
+      <tc:Nfse>
+        <tc:InfNfse>
+          <tc:Numero>1</tc:Numero>
+          <tc:CodigoVerificacao> AA 69 BC</tc:CodigoVerificacao>
+          <tc:DataEmissao>2022-04-18T14:38:21</tc:DataEmissao>
+          <tc:IdentificacaoRps>
+            <tc:Numero>1</tc:Numero>
+            <tc:Serie>8</tc:Serie>
+            <tc:Tipo>1</tc:Tipo>
+          </tc:IdentificacaoRps>
+          <tc:DataEmissaoRps>2022-04-18T14:38:21</tc:DataEmissaoRps>
+          <tc:NaturezaOperacao>1</tc:NaturezaOperacao>
+          <tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
+          <tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
+          <tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+          <tc:Competencia>202204</tc:Competencia>
+          <tc:OutrasInformacoes />
+          <tc:Servico>
+            <tc:ItemListaServico>107</tc:ItemListaServico>
+            <tc:CodigoCnae>6209100</tc:CodigoCnae>
+            <tc:CodigoTributacaoMunicipio>2892</tc:CodigoTributacaoMunicipio>
+            <tc:Discriminacao>Teste de RPS - Discriminação com vários caracteres especiais:  " ! @ # $ % K * ( ) - _ = + | \ , ; : / ? ? ? </tc:Discriminacao>
+            <tc:MunicipioPrestacaoServico>999</tc:MunicipioPrestacaoServico>
+            <tc:Valores>
+              <tc:ValorServicos>5000</tc:ValorServicos>
+              <tc:ValorDeducoes>0</tc:ValorDeducoes>
+              <tc:ValorPis>0</tc:ValorPis>
+              <tc:ValorCofins>0</tc:ValorCofins>
+              <tc:ValorInss>0</tc:ValorInss>
+              <tc:ValorIr>0</tc:ValorIr>
+              <tc:ValorCsll>0</tc:ValorCsll>
+              <tc:IssRetido>1</tc:IssRetido>
+              <tc:BaseCalculo>5000</tc:BaseCalculo>
+              <tc:Aliquota>4.00</tc:Aliquota>
+              <tc:ValorLiquidoNfse>4800</tc:ValorLiquidoNfse>
+              <tc:ValorIssRetido>200</tc:ValorIssRetido>
+              <tc:ValorIss>0</tc:ValorIss>
+              <tc:DescontoCondicionado>0</tc:DescontoCondicionado>
+              <tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
+            </tc:Valores>
+          </tc:Servico>
+          <tc:PrestadorServico>
+            <tc:IdentificacaoPrestador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>69549400450004</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>154895648564</tc:InscricaoMunicipal>
+            </tc:IdentificacaoPrestador>
+            <tc:RazaoSocial>Joãozinho games</tc:RazaoSocial>
+            <tc:NomeFantasia>Joãozinho games</tc:NomeFantasia>
+            <tc:Endereco>
+              <tc:Endereco>Avenida Afonso Pena</tc:Endereco>
+              <tc:Numero>100</tc:Numero>
+              <tc:Bairro>Jardim dos Estados</tc:Bairro>
+              <tc:Cidade>5002704</tc:Cidade>
+              <tc:Estado>MS</tc:Estado>
+              <tc:Cep>79020001</tc:Cep>
+            </tc:Endereco>
+            <tc:Contato>
+              <tc:Telefone>6799999999</tc:Telefone>
+              <tc:Email>joaozinhogames@mail.com</tc:Email>
+            </tc:Contato>
+          </tc:PrestadorServico>
+          <tc:TomadorServico>
+            <tc:IdentificacaoTomador>
+              <tc:CpfCnpj>
+                <tc:Cnpj>32244252447564</tc:Cnpj>
+              </tc:CpfCnpj>
+              <tc:InscricaoMunicipal>1988</tc:InscricaoMunicipal>
+            </tc:IdentificacaoTomador>
+            <tc:RazaoSocial>Prestador_Integração</tc:RazaoSocial>
+            <tc:Endereco>
+              <tc:Endereco>Alameda Aciba Helou Carneiro</tc:Endereco>
+              <tc:Numero>187</tc:Numero>
+              <tc:Bairro>Residencial Monte Sinai</tc:Bairro>
+              <tc:Cidade>5201108</tc:Cidade>
+              <tc:Estado>GO</tc:Estado>
+              <tc:Cep>75074862</tc:Cep>
+            </tc:Endereco>
+          </tc:TomadorServico>
+          <tc:OrgaoGerador>
+            <tc:CodigoMunicipio>5002704</tc:CodigoMunicipio>
+            <tc:Uf>MS</tc:Uf>
+          </tc:OrgaoGerador>
+          <tc:ValorCredito>0</tc:ValorCredito>
+        </tc:InfNfse>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>IVx+MNntRSrhzwsKO55oKSxMGXA=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>wNqbNasx1cnf8REV2uLh7DWD7CM0b1oWs5NPa+zZ0IK24oprckva4vgGreL4p3IZlq7ovllmLCxc8C/yvsBVjMt8Up9KHd/V8RgaIyCa3W7JThHOZsgSTdTr7OdkxAgDc5drlf7Xg7pviez5BTU7wkUgfEqXjmzTjUsFhnaui8o=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIE6zCCA9OgAwIBAgIKYVdRhAABAAAAJjANBgkqhkiG9w0BAQUFADCB6DEvMC0GCSqGSIb3DQEJARYgYWNub3RhY29udHJvbEBub3RhY29udHJvbC5jb20uYnIxDzANBgNVBAYTBkJyYXNpbDEbMBkGA1UECBMSTWF0byBHcm9zc28gZG8gU3VsMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxMTAvBgNVBAsTKERlcGFydGFtZW50byBkZSBUZWNub2xvZ2lhIGRhIEluZm9ybWFjYW8xJTAjBgNVBAoTHE5vdGEgQ29udHJvbCBUZWNub2xvZ2lhIEx0ZGExFjAUBgNVBAMTDUFDTk9UQUNPTlRST0wwHhcNMDYwNjE5MTkyNzUwWhcNMDcwNjE5MTkzNzUwWjCBqTELMAkGA1UEBhMCQlIxCzAJBgNVBAgTAk1TMRUwEwYDVQQHEwxDYW1wbyBHcmFuZGUxFTATBgNVBAoTDE5vdGEgQ29udHJvbDEWMBQGA1UECwwNSW1wbGFudGHDp8OjbzEWMBQGA1UEAxMNTWFyaW5hIEZsb3JlczEvMC0GCSqGSIb3DQEJARYgbWFyaW5hLm1hdHJpekBub3RhY29udHJvbC5jb20uYnIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO3b4upTb+Dzfn8455N9idfTqF2058s28IQ5/GfuNjHwUe1Gdjj+Ge+6CDopVJK/tBpTxmhjj7AfdVfvMrRaHWEruupna2Yc9sCUAdu+WxpwPU4p85l1NQ7hFZrDsPnMM1GnuWOiQa3K3QGnUKCbSz5JioBTxddSqxAr2trwFFzhAgMBAAGjggFWMIIBUjAOBgNVHQ8BAf8EBAMCBPAwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMB0GA1UdDgQWBBSlHRez2aXfGIYCwV4SBWhZ3BH0hjATBgNVHSUEDDAKBggrBgEFBQcDAjAfBgNVHSMEGDAWgBRmX/X2zlSS737xO8NBSJ0or/3g4jBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vMjAwLjE5OS4yMTguMjM2L2NybHMvYWNub3RhY29udHJvbC9hY25vdGFjb250cm9sLmNybDBXBggrBgEFBQcBAQRLMEkwRwYIKwYBBQUHMAKGO2h0dHA6Ly8yMDAuMTk5LjIxOC4yMzYvbHBjL2Fjbm90YWNvbnRyb2wvbHBjbm90YWNvbnRyb2wucGRmMA0GCSqGSIb3DQEBBQUAA4IBAQCZNKnc4zeRso3V5jx1E81DwMIG8u/Kq+KQbxWE1bM+Qy7jQ0+LC0lJHQT9Ot7mD/WXmDLVTSy5aZbDBuc7uSaz6LgdgBekzUOcAvVhnv5r4Zu74zjcpWABn78T1P9LLPwJZmKZVFJei2fVuhoP+lbXHmKl8DCb3kAfpKE41/75rMchUBBGf8++Q1Wbq/ycs/cFldgcW1vtKThjAsIBJvFNAgPVXvdhmVf9aTXkdKvrYITmlhPt5oK5mxzKJK22aRUI8F3w6uvtHvBGB3mNusbR4mGgj2KqY7q4xtHpD17CgjG9Q9lCT8gunMDJDXJN7CymuzVZB00xKT1z/MMVcgH2</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </tc:Nfse>
+    </CompNfse>
+  </ListaNfse>
+</ConsultarLoteRpsResposta>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConsultarDadosCadastraisEnvio 
+	xmlns:tc="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd" 
+	xmlns:ts="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_simples.xsd" 
+	xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/servico_consultar_dados_cadastrais_envio.xsd">
+	<Prestador>
+		<tc:CpfCnpj>
+		  <tc:Cnpj>08695055000175</tc:Cnpj>
+		</tc:CpfCnpj>
+		<tc:InscricaoMunicipal>6729700</tc:InscricaoMunicipal>
+	</Prestador>	
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+         <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+         <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+         <Reference URI="">
+            <Transforms>
+               <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+               <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>map0AwhbB4GBxzOGDMCLa+Bvx8Q=</DigestValue>
+         </Reference>
+      </SignedInfo>
+      <SignatureValue>WHSUdMzs1064/d1P1lXn3ysc3I8EcmT60RiWV7DEe+E19T6JUzHJD68EXDY0WmffoCVNh1FkhZX7skgj0zaCTCY1vBNDVcy8YwVk4BY1fun2dKP2DGm27hEnGdZk+NKWLalbajBnJwJHnw2EmBl524+7BvzceD0EzHynabnSDSQ=</SignatureValue>
+      <KeyInfo>
+         <X509Data>
+            <X509Certificate>MIIFLTCCBBWgAwIBAgIKYQIMagAAAAABLjANBgkqhkiG9w0BAQUFADAcMRowGAYDVQQDExFDQVRFU1RFTUFRVklSVFVBTDAeFw0xNzAyMDExNzA1MTlaFw0xODAyMDExNzE1MTlaMIG3MQswCQYDVQQGEwJCUjELMAkGA1UECBMCTVMxFTATBgNVBAcTDENhbXBvIEdyYW5kZTEgMB4GA1UEChMXTm90YSBDb250cm9sIFRlY25vbG9naWExITAfBgNVBAsTGFRlY25vbG9naWEgZGEgSW5mb3JtYWNhbzEcMBoGA1UEAxMTU2hha2lyYToxNTkxNTkxNTk3MzEhMB8GCSqGSIb3DQEJARYSZW1haWxAZW1haWwuY29tLmJyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcEvUsK5NdPOX8/m/KbzkrwVMZVoai/Ddh5iFuCkSUmluhKwjxt7QBQXlo8pdnNwzLph+T2aqQ6vKuSqMw1B2Db86fmwx+I0p3CWzZh6HER1Jnoji9t0PiQeyhylWibGhxiMGJixmLvxM9tfY+qjS+YSovqmW5b2v3sY+1yg3CMQIDAQABo4ICVzCCAlMwDgYDVR0PAQH/BAQDAgTwMEQGCSqGSIb3DQEJDwQ3MDUwDgYIKoZIhvcNAwICAgCAMA4GCCqGSIb3DQMEAgIAgDAHBgUrDgMCBzAKBggqhkiG9w0DBzAdBgNVHQ4EFgQU7i82PbVM87xEzq61iwd/PrlXLWgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIGTBgNVHREBAf8EgYgwgYWBEmVtYWlsQGVtYWlsLmNvbS5icqA6BgVgTAEDAaAxDC8wMTAxMTk5MDE1OTE1OTE1OTczMTIzNDU2Nzg5MTIxMjM0NTY3ODkxMlNTUC9NU6AzBgVgTAEDBaAqDCgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMB8GA1UdIwQYMBaAFNl8PYrbQVWemDWACg7EIFD7gOi6MG8GA1UdHwRoMGYwZKBioGCGLWh0dHA6Ly90ZXN0ZS9DZXJ0RW5yb2xsL0NBVEVTVEVNQVFWSVJUVUFMLmNybIYvZmlsZTovL1xcdGVzdGVcQ2VydEVucm9sbFxDQVRFU1RFTUFRVklSVFVBTC5jcmwwgZQGCCsGAQUFBwEBBIGHMIGEMD8GCCsGAQUFBzAChjNodHRwOi8vdGVzdGUvQ2VydEVucm9sbC90ZXN0ZV9DQVRFU1RFTUFRVklSVFVBTC5jcnQwQQYIKwYBBQUHMAKGNWZpbGU6Ly9cXHRlc3RlXENlcnRFbnJvbGxcdGVzdGVfQ0FURVNURU1BUVZJUlRVQUwuY3J0MA0GCSqGSIb3DQEBBQUAA4IBAQBZhBCnDBoDY1PDPrzenY5uBdGq1VRewYy+YZaZKyiMBGMvzhBazVNNQuSCpyMS7BIMBHadurkfaCR7zRKilcpfRhnJ060K52tA0EWdXGn9RnKXc0d2rtPW3jt+jK/U/GEiP14O7Xe3VAlLsKuw/5+At66L7wmfbEmQW3E6O9i5SqV8az/v9mIwzZ7BvTHE3WiYTBgjWY0hUCmbwb4zTf2ZfBJZlVXgTpGCMj/QSq/2+EQ+iJ72dy4k27f3lT870CFHbSL+1S7QqBPEeAnZXEELrSqWMY+2pg8dsWhJOlf+wvFjkbmoKIT7/25k67Af0wybjbO7O7pxxaVOm+sgywGG</X509Certificate>
+         </X509Data>
+      </KeyInfo>
+   </Signature>
+</ConsultarDadosCadastraisEnvio>
