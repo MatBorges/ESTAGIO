@@ -1,0 +1,15 @@
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\bin\Debug\net5.0\proj12Aula2.exe
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\bin\Debug\net5.0\proj12Aula2.deps.json
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\bin\Debug\net5.0\proj12Aula2.runtimeconfig.json
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\bin\Debug\net5.0\proj12Aula2.runtimeconfig.dev.json
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\bin\Debug\net5.0\proj12Aula2.dll
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\bin\Debug\net5.0\ref\proj12Aula2.dll
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\bin\Debug\net5.0\proj12Aula2.pdb
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\obj\Debug\net5.0\proj12Aula2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\obj\Debug\net5.0\proj12Aula2.AssemblyInfoInputs.cache
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\obj\Debug\net5.0\proj12Aula2.AssemblyInfo.cs
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\obj\Debug\net5.0\proj12Aula2.csproj.CoreCompileInputs.cache
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\obj\Debug\net5.0\proj12Aula2.dll
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\obj\Debug\net5.0\ref\proj12Aula2.dll
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\obj\Debug\net5.0\proj12Aula2.pdb
+C:\Users\mateus.araujo\source\repos\proj12Aula2\proj12Aula2\obj\Debug\net5.0\proj12Aula2.genruntimeconfig.cache

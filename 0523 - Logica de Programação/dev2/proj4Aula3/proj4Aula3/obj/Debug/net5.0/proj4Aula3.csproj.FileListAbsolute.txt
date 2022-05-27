@@ -1,0 +1,16 @@
+C:\dev2\proj4Aula3\proj4Aula3\bin\Debug\net5.0\proj4Aula3.exe
+C:\dev2\proj4Aula3\proj4Aula3\bin\Debug\net5.0\proj4Aula3.deps.json
+C:\dev2\proj4Aula3\proj4Aula3\bin\Debug\net5.0\proj4Aula3.runtimeconfig.json
+C:\dev2\proj4Aula3\proj4Aula3\bin\Debug\net5.0\proj4Aula3.runtimeconfig.dev.json
+C:\dev2\proj4Aula3\proj4Aula3\bin\Debug\net5.0\proj4Aula3.dll
+C:\dev2\proj4Aula3\proj4Aula3\bin\Debug\net5.0\ref\proj4Aula3.dll
+C:\dev2\proj4Aula3\proj4Aula3\bin\Debug\net5.0\proj4Aula3.pdb
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\proj4Aula3.csproj.AssemblyReference.cache
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\proj4Aula3.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\proj4Aula3.AssemblyInfoInputs.cache
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\proj4Aula3.AssemblyInfo.cs
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\proj4Aula3.csproj.CoreCompileInputs.cache
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\proj4Aula3.dll
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\ref\proj4Aula3.dll
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\proj4Aula3.pdb
+C:\dev2\proj4Aula3\proj4Aula3\obj\Debug\net5.0\proj4Aula3.genruntimeconfig.cache

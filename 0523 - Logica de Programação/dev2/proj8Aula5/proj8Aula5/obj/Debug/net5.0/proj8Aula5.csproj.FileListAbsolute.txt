@@ -1,0 +1,16 @@
+C:\dev2\proj8Aula5\proj8Aula5\bin\Debug\net5.0\proj8Aula5.exe
+C:\dev2\proj8Aula5\proj8Aula5\bin\Debug\net5.0\proj8Aula5.deps.json
+C:\dev2\proj8Aula5\proj8Aula5\bin\Debug\net5.0\proj8Aula5.runtimeconfig.json
+C:\dev2\proj8Aula5\proj8Aula5\bin\Debug\net5.0\proj8Aula5.runtimeconfig.dev.json
+C:\dev2\proj8Aula5\proj8Aula5\bin\Debug\net5.0\proj8Aula5.dll
+C:\dev2\proj8Aula5\proj8Aula5\bin\Debug\net5.0\ref\proj8Aula5.dll
+C:\dev2\proj8Aula5\proj8Aula5\bin\Debug\net5.0\proj8Aula5.pdb
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\proj8Aula5.csproj.AssemblyReference.cache
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\proj8Aula5.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\proj8Aula5.AssemblyInfoInputs.cache
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\proj8Aula5.AssemblyInfo.cs
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\proj8Aula5.csproj.CoreCompileInputs.cache
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\proj8Aula5.dll
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\ref\proj8Aula5.dll
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\proj8Aula5.pdb
+C:\dev2\proj8Aula5\proj8Aula5\obj\Debug\net5.0\proj8Aula5.genruntimeconfig.cache
