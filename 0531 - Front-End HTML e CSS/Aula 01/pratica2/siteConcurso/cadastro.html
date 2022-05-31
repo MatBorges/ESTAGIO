@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="font-family: Arial, Helvetica, sans-serif;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | Concurso de Pets Nota Control</title>
+</head>
+<body>
+    <header style="text-align: center">
+        <h1 style="color: rgb(255, 96, 96);">Concurso de Pets da Nota Control</h1>
+        <nav>
+            <table style="margin: auto;">
+                <thead>
+                    <tr>
+                        <th style="padding: 10px;"><a style="color: rgb(255, 197, 197); text-decoration: none;" href="home.html">HOME</a></th>
+                        
+                        <th style="padding: 10px;"><a style="color: rgb(255, 197, 197); text-decoration: none;" href="cadastro.html">Inscreva seu Pet</a></th>
+                        
+                        <th style="padding: 10px;"><a style="color: rgb(255, 197, 197); text-decoration: none;" href="participantes.html">Concorrentes</a></th>
+                    </tr>
+                </thead>
+            </table>
+        </nav>
+    </header>
+    <hr>
+    <main style="text-align: center;">        
+        <h2>Cadastre seu Pet para o concurso</h2>
+        <section id="cadastro" style="padding: 20px;">
+            <form>
+                <div style="margin: 20px;">
+                    <label for="nomePet">Nome do seu Pet</label>
+                    <input id="nomePet" type="text" placeholder="Nome do Pet" required>
+                </div>
+                <div style="margin: 20px;">
+                    <label for="nomeHumano">Nome do Humano</label>
+                    <input id="nomeHumano" type="text" placeholder="Nome do Humano" required>
+                </div>
+                <div style="margin: 20px;">
+                    <label for="telefone">Telefone</label>
+                    <input id="" type="tel" pattern="([0-9]{2})[0-9]{1}[0-9]{4}[0-9]{4}" placeholder="Telefone" required>
+                </div>
+                <div style="margin: 20px;">
+                    <p>Descreva brevemente o seu bichinho!!</p>                  
+                    <textarea id="descricao" cols="30" rows="10" placeholder="Escreva aqui"></textarea>
+                </div>
+                <div style="margin: 20px;">
+                    <p>O seu bichinho está com as vacinas em dia?</p>
+                    <div>
+                        <label for="vacinaSim" style="display: block;"><input type="radio" name="vacinas" id="vacinaSim" checked>Sim, todas tomadas!! :D</label>                    
+                        <label for="vacinaNão" style="display: block;"><input type="radio" name="vacinas" id="vacinaNão">Não, ainda falta algumas :'(</label>
+                    </div>                    
+                </div>
+                <div>
+                    <p>Agora nos envie uma foto do seu bichinho <input type="file" name="btnArquivo" id="btnArquivo"></p>
+                </div>
+                <input type="submit" value="Cadastrar" style="margin-top: 40px;">
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer style="text-align: center;">
+        <h5>Nota contra Tecnologia &copy;</h5>
+    </footer>
+</body>
+</html>
