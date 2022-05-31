@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+
+html{
+    font-family: cursive;
+    background-image: url("img/petpawns.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    color: rgb(63, 36, 0);
+    margin: 100px auto;
+    width: 1300px;
+    height: 900px;
+    text-align: center;
+}
+
+main .cabecalho{
+    background-color: rgba(106, 142, 35, 0.945);
+}
+
+
+
+main .conteudoPrincipal{
+    background-color: rgb(245, 255, 224);
+    padding: 30px;
+}
+
+main .opcaoNav{
+
+}
+
+.rodape{
+    background-color: rgba(106, 142, 35, 0.945);
+}
+
+
+#bannerHome{
+    border-radius: 50%;
+    border: 15px dashed olivedrab;
+}
