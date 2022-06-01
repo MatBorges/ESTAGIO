@@ -4,4 +4,6 @@
 4 - https://www.w3schools.com/TAgs/default.asp
 5 - https://www.w3schools.com/html/html_forms.asp
 6 - https://www.w3schools.com/tags/tag_input.asp
-7 - 
+7 - https://origamid.com/projetos/flexbox-guia-completo/
+8 - https://css-tricks.com/snippets/css/complete-guide-grid/
+9 - 
