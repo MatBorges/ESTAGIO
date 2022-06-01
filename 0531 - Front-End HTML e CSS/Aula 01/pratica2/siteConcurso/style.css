@@ -8,6 +8,7 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main{
@@ -40,9 +41,19 @@ main .conteudoPrincipal{
     padding: 30px;
 }
 
+#bannerHome{
+    border-radius: 35%;
+    border: 15px dashed olivedrab;
+}
+
 main .opcaoNav{
     text-decoration: none;
     color: rgb(63, 36, 0);
+}
+
+.opcaoNav:hover{
+    color: aliceblue;
+    transition: ease .3s;
 }
 
 main header{
@@ -53,16 +64,14 @@ main .conteudoPrincipal form div{
     margin: 20px;
 }
 
+main .conteudoPrincipal form div label{
+    color: olivedrab;
+}
+
 main footer{
     border-radius: 0px 0px 10px 10px;
 }
 
 .rodape{
     background-color: rgba(106, 142, 35, 0.945);
-}
-
-
-#bannerHome{
-    border-radius: 50%;
-    border: 15px dashed olivedrab;
 }
