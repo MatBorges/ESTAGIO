@@ -1,0 +1,7 @@
+1 - https://www.origamid.com/projetos/css-grid-layout-guia-completo/
+2 - https://www.freecodecamp.org/learn/responsive-web-design/#css-grid
+3 - https://caniuse.com/
+4 - https://www.w3schools.com/TAgs/default.asp
+5 - https://www.w3schools.com/html/html_forms.asp
+6 - https://www.w3schools.com/tags/tag_input.asp
+7 - 
