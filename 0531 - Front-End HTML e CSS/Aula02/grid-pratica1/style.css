@@ -1,0 +1,26 @@
+body {
+    width: 90%;
+    height: 800px;
+    margin: 5vh auto;
+}
+
+header {
+    background-color: red;
+}
+
+section {
+    background-color: blue;
+    padding: 5px;
+}
+
+article {
+    background-color: aqua;
+}
+
+aside {
+    background-color: green;
+}
+
+footer {
+    background-color: gray;
+}
