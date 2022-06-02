@@ -1,0 +1,139 @@
+body{
+    /* background-color: aquamarine; */
+    width: 100vw;    
+}
+
+/*######################################################################### HEADER */
+
+.cabecalhoPrincipal{
+    
+}
+
+.cabecalhoPrincipal .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;   
+}
+
+.cabecalhoPrincipal .container .cabecalhoPrincipal-nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*########################################################################### MAIN */
+
+.conteudoPrincipal{
+    width: 100%;
+}
+
+.conteudoPrincipal .container{
+    width: 80%;
+    margin: auto;
+}
+
+.conteudoPrincipal .container nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoPrincipal .container nav .conteudoPrincipal-cursos{   
+    width: 100%; 
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    margin: auto;    
+}
+
+.conteudoPrincipal .container nav .conteudoPrincipal-cursos .conteudoPrincipal-cursos-link{
+    width: 23%;    
+}
+
+/*################################################################ VIDEO */
+
+.videoSobre{
+    display: flex;
+    
+    width: 100vw;
+
+}
+.videoSobre .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoSobre .container .videoSobre-sobre{
+    text-align: center;
+    display: flex;    
+    flex-direction: column;
+}
+
+.videoSobre .container .videoSobre-sobre .videoSobre-sobre-list{    
+    justify-content: center;    
+    align-content: space-between;
+}
+
+.videoSobre .container .videoSobre-sobre .videoSobre-sobre-list .videoSobre-sobre-item{
+    justify-content: center;
+}
+
+.videoSobre .container .videoSobre-sobre .videoSobre-button{
+    width: 100%;    
+}
+
+
+
+
+/*######################################################################### FOOTER */
+
+
+.rodapePrincipal{
+    width: 100%;
+    /* height: 229px; */
+}
+
+.rodapePrincipal .container{
+    width: 80%;
+    display: flex;
+    justify-content: ;
+}
+
+/*################################################################# MAPA */
+.rodapePrincipal .container .rodapePrincipal-navMap{
+
+}
+
+.rodapePrincipal .container .rodapePrincipal-navMap .subtitulo{
+    
+}
+
+.rodapePrincipal .container .rodapePrincipal-navMap-list{
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+/*####################################################### PATROCINADORES */
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores .container .rodapePrincipal-patrocinadores-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rodapePrincipal-patrocinadores .container .rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
+
+
