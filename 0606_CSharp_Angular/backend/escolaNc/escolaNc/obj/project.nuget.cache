@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NmWwY8oCuFeljFYKBPaafXLP85uAVu4oGmY88r7YInJH7OoedWquaenDC1C/rVZ/VUG24s/YHnJLgqvjlvWoFQ==",
+  "dgSpecHash": "UhFkTD1gy0FMpkJmHon3yBoBHH/ew1lx3k4DdNoUjtB7j+tBfByKaTul8wB0oytqpVK+oN/TJHjWa6v9GB0FtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateus.araujo\\Documents\\ESTAGIO\\0606-C# Angular\\backend\\escolaNc\\escolaNc\\escolaNc.csproj",
+  "projectFilePath": "C:\\Users\\mateus.araujo\\Documents\\ESTAGIO\\0606_CSharp_Angular\\backend\\escolaNc\\escolaNc\\escolaNc.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\mateus.araujo\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

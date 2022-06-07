@@ -5841,11 +5841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateus.araujo\\Documents\\ESTAGIO\\0606-C# Angular\\backend\\escolaNc\\escolaNc\\escolaNc.csproj",
+      "projectUniqueName": "C:\\Users\\mateus.araujo\\Documents\\ESTAGIO\\0606_CSharp_Angular\\backend\\escolaNc\\escolaNc\\escolaNc.csproj",
       "projectName": "escolaNc",
-      "projectPath": "C:\\Users\\mateus.araujo\\Documents\\ESTAGIO\\0606-C# Angular\\backend\\escolaNc\\escolaNc\\escolaNc.csproj",
+      "projectPath": "C:\\Users\\mateus.araujo\\Documents\\ESTAGIO\\0606_CSharp_Angular\\backend\\escolaNc\\escolaNc\\escolaNc.csproj",
       "packagesPath": "C:\\Users\\mateus.araujo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateus.araujo\\Documents\\ESTAGIO\\0606-C# Angular\\backend\\escolaNc\\escolaNc\\obj\\",
+      "outputPath": "C:\\Users\\mateus.araujo\\Documents\\ESTAGIO\\0606_CSharp_Angular\\backend\\escolaNc\\escolaNc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
