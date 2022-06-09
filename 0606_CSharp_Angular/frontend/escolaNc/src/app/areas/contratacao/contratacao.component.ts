@@ -63,9 +63,11 @@ export class ContratacaoComponent implements OnInit {
       alert(`Selecione ao menos um serviço`)
       return
     }
-    this.api.post('contratação', this.envio).subscribe({
-
-    }),
+    this.api.post('contratação', this.envio).subscribe(
+      () => {
+        alert('Serviçoes contratados')
+      }
+    ),
     (erro: any) => {
       alert(erro.error)
     },
