@@ -1,0 +1,88 @@
+<div class="container">
+  <div class="flex-box">
+    <div class="titulo">
+      <h2>Serviços Cadastrados</h2>
+    </div>
+    <div class="flex-item printnone">
+
+      <button class="btn btn-sm btn-outline-success me-2" data-bs-toggle="modal"
+      data-bs-target="#modalServico">
+        <i class="bi bi-plus-lg"></i>
+      </button>
+
+      <a>
+        <button class="btn btn-sm btn-outline-success me-2">
+          <i class="bi bi-printer"></i>
+        </button>
+      </a>
+    </div>
+  </div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Descrição</th>
+        <th style="text-align: right">Preço</th>
+        <th class="printnone" style="text-align: right; padding-right: 2ch;">Opções</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let servico of servicos;">
+        <td class="align-middle">{{servico.id}}</td>
+        <td class="align-middle">{{servico.descricao}}</td>
+        <td class="align-middle" style="text-align: right">{{servico.preco.toFixed(2)}}</td>
+        <td class="align-middle" style="text-align: right">
+          <div class="btn-group">
+            <button class="me-2 btn btn-sm btn-outline-primary">
+              <i class="bi bi-pencil" ></i>
+            </button>
+            <button class="me-2 btn btn-sm btn-outline-danger" data-bs-toggle="modal"
+              data-bs-target="#modalConfirmacao" >
+              <i class="bi bi-trash3"></i>
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="modal fade" id="modalServico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Serviços</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="form">
+          <h2>Cadastro</h2>
+          <div class="row">
+            <input formControlName="nome" type="text" class="form-control mt-2"
+                    placeholder="{{servicos[servicos.length-1].id+1}}" readonly>
+          </div>
+          <div class="row">
+            <input [ngClass]="{'is-invalid': f.descricao.errors && f.descricao.touched}" formControlName="descricao" type="text" class="form-control mt-2"
+                    placeholder="Descrição">
+            <div *ngIf="f.descricao.errors?.required" class="invalid-feedback">
+              Campo de preenchimento obrigatório!
+            </div>
+          </div>
+          <div class="row">
+            <input [ngClass]="{'is-invalid': f.preco.errors && f.preco.touched}" formControlName="preco" type="text" class="form-control mt-2" placeholder="Preço">
+            <div *ngIf="f.preco.errors?.required" class="invalid-feedback">
+              Campo de preenchimento obrigatório!
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button [disabled]="f.descricao.errors || f.preco.errors" type="button"
+                class="btn btn-outline-success" data-bs-dismiss="modal" (click)="incluir()">
+          <i class="bi bi-check2"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+

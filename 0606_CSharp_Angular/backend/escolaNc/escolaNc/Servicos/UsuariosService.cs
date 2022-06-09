@@ -1,11 +1,9 @@
 ﻿using escolaNc.Data;
-using escolaNc.Excecoes;
 using escolaNc.Interfaces;
-using escolaNc.modelos;
-using System;
+using escolaNc.Modelos;
+using escolaNc.Excecoes;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace escolaNc.Servicos
 {
@@ -13,43 +11,59 @@ namespace escolaNc.Servicos
     {
         private EscolaContext _context;
 
-        public UsuariosService(EscolaContext context){
-            _context = context; 
+        public UsuariosService(EscolaContext context)
+        {
+            _context = context;
         }
-        public Usuario AtualizaUsuario(Usuario usuario){
-            if (!_context.USUARIOS.Any(u => u.cpf == usuario.cpf)){
-                throw new Excecao("Usuário não encontrado no banco de dados");
+
+        public List<Usuario> RetornaUsuarios()
+        {
+            try
+            {
+                return _context.USUARIOS.ToList();
             }
-            try{
+            catch (System.Exception)
+            {
+                throw new Excecao("Não foi possível acessar a base de dados");
+            }
+        }
+
+        public Usuario AtualizaUsuario(Usuario usuario)
+        {
+            if (!_context.USUARIOS.Any(u => u.cpf == usuario.cpf))
+                throw new Excecao("Usuário não encontrado no banco de dados");
+
+            try
+            {
                 _context.USUARIOS.Update(usuario);
                 _context.SaveChanges();
                 return usuario;
             }
-            catch (Exception)
+            catch (System.Exception)
             {
-                throw new Excecao($"Não foi possivel encontrar o usuário com o CPF:{usuario.cpf} no banco de dados");
+                throw new Excecao("Não foi possível atualizar o usuário na base de dados");
             }
         }
 
-        public Usuario InsereUsuario(Usuario usuario){
+        public Usuario InsereUsuario(Usuario usuario)
+        {
             try
             {
                 _context.USUARIOS.Add(usuario);
                 _context.SaveChanges();
                 return usuario;
             }
-            catch (System.Exception)
+            catch 
             {
-
-                throw new Excecao($"O usuário com o cpf {usuario.cpf} ja existe na base de dados");
+                throw new Excecao($"O usuário com o cpf {usuario.cpf} já existe na base de dados");
             }
+            
         }
 
-        public bool RemoveUsuario(string cpf){
+        public bool RemoveUsuario(string cpf)
+        {
             if (!_context.USUARIOS.Any(u => u.cpf == cpf))
-            {
                 throw new Excecao("Usuário não encontrado no banco de dados");
-            }
 
             try
             {
@@ -59,21 +73,12 @@ namespace escolaNc.Servicos
                 _context.SaveChanges();
                 return true;
             }
-            catch (Exception)
+            catch
             {
-
-                throw;
+                throw new Excecao($"Não foi possível remover o usuário de cpf {cpf} da base de dados");
             }
         }
 
-        public List<Usuario> RetornaUsuario(){
-            try{
-                return _context.USUARIOS.ToList();
-            }
-            catch (System.Exception){
-
-                throw new Excecao("Não foi possivel acessar o banco de dados");
-            }            
-        }
+        
     }
 }

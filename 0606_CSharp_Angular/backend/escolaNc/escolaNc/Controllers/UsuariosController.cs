@@ -1,5 +1,5 @@
 ﻿using escolaNc.Interfaces;
-using escolaNc.modelos;
+using escolaNc.Modelos;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,16 +13,18 @@ namespace escolaNc.Controllers
     [Route("[controller]")]
     public class UsuariosController : ControllerBase
     {
-        private readonly IUsuariosService _usuariosService; 
-        public UsuariosController(IUsuariosService usuariosService){
+        private readonly IUsuariosService _usuariosService;
+        public UsuariosController(IUsuariosService usuariosService)
+        {
             _usuariosService = usuariosService;
         }
 
         [HttpGet]
-        public IActionResult Get(){
+        public IActionResult Get()
+        {
             try
             {
-                return Ok(_usuariosService.RetornaUsuario());
+                return Ok(_usuariosService.RetornaUsuarios());
             }
             catch (Exception e)
             {
@@ -30,8 +32,9 @@ namespace escolaNc.Controllers
             }
         }
 
-        [HttpPost, Route("Inserir")]
-        public IActionResult InserirUsuario([FromBody] Usuario usuario){
+        [HttpPost, Route("inserir")]
+        public IActionResult InserirUsuario([FromBody] Usuario usuario)
+        {
             try
             {
                 return Ok(_usuariosService.InsereUsuario(usuario));
@@ -42,7 +45,7 @@ namespace escolaNc.Controllers
             }
         }
 
-        [HttpPost, Route("Atualizar")]
+        [HttpPost, Route("atualizar")]
         public IActionResult AtualizarUsuario([FromBody] Usuario usuario)
         {
             try
@@ -55,17 +58,18 @@ namespace escolaNc.Controllers
             }
         }
 
-        [HttpDelete, Route("{cpf}")]
-        public IActionResult RemoveUsuario(string cpf)
+        [HttpDelete("{cpf}")]
+        public IActionResult RemoveUsusario(string cpf)
         {
             try
             {
                 return Ok(_usuariosService.RemoveUsuario(cpf));
             }
             catch (Exception e)
-            {
+            { 
                 return BadRequest(e.Message);
             }
         }
-    }   
+
+    }
 }

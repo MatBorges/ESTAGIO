@@ -7,8 +7,11 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './usuario.component.html',
   styleUrls: ['./usuario.component.css']
 })
+
 export class UsuarioComponent implements OnInit {
-  public  nome = '';
+
+  public edita = false;
+  public nome = '';
   public idade = 0;
   public cpf = '';
   public rg = '';
@@ -17,7 +20,6 @@ export class UsuarioComponent implements OnInit {
   public cidade = '';
 
   public usuarios: any[] = [];
-  public edita: boolean = false;
 
   constructor(private api: ApiService) { }
 
@@ -27,22 +29,22 @@ export class UsuarioComponent implements OnInit {
 
   public iniciarPagina(){
     this.edita = false;
-    this.api.get(`usuarios`).subscribe(
+    this.api.get('usuarios').subscribe(
       (dados: any) => {
-        this.usuarios = dados;
-        console.table(this.usuarios);
+      this.usuarios = dados;
+      console.table(this.usuarios);
       },
-      (erro: any) => {
-        alert(erro.error);
+      (erro:any) => {
+      alert(erro.error);
       }
     )
   }
 
-  public editar(item: any){
+  public editar(item: any)
+  {
     this.edita = !this.edita;
-
     this.nome = item.nome;
-    this.idade = item.idade;
+    this.idade = item.idade
     this.cpf = item.cpf;
     this.rg = item.rg;
     this.data_nasc = item.data_nasc;
@@ -50,7 +52,8 @@ export class UsuarioComponent implements OnInit {
     this.cidade = item.cidade;
   }
 
-  public salvar(){
+  public salvar()
+  {
     let item = {
       nome: this.nome,
       idade: this.idade,
@@ -58,42 +61,44 @@ export class UsuarioComponent implements OnInit {
       rg: this.rg,
       data_nasc: this.data_nasc,
       endereco: this.endereco,
-      cidade: this.cidade,
+      cidade: this.cidade
     };
 
-    this.api.post(`usuarios/atualizar`, item).subscribe(
+    this.api.post('usuarios/atualizar', item).subscribe(
       (dados: any) => {
-        if(dados !== null || dados !== undefined ){
+        if(dados !== null || dados !== undefined)
+        {
           alert(`Dados do usuário ${dados.nome} salvos com sucesso`);
           this.iniciarPagina();
         }
       },
-      (erro: any) => {
+      (erro:any) => {
         alert(erro.error);
       }
-    )
-
-  }
-  public imprimir(obj: string){
-
+    );
   }
 
-  public setCpf(item: any){
+  public setCpf(item: any)
+  {
     this.cpf = item.cpf;
-    this.nome = item.nome;
+    this.nome = item.nome
   }
 
-  public excluir(){
-    this.api.delete('usuarios', this.cpf!).subscribe(
+  public excluir()
+  {
+    this.api.delete('usuarios', this.cpf).subscribe(
       (dados: any) => {
-        if(dados) {
-          alert('usuario removido.');
+        if(dados)
+        {
+          alert(`Usuário ${this.nome} removido com sucesso`);
           this.iniciarPagina();
         }
       },
-      (erro: any) => {
+      (erro:any) => {
         alert(erro.error);
       }
-    )
+    );
   }
+  public imprimir(obj: string) {}
+
 }

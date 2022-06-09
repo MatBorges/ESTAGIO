@@ -1,3 +1,5 @@
+CREATE DATABASE ESCOLA_NC;
+
 USE ESCOLA_NC;
 
 CREATE TABLE [dbo].[USUARIOS](
@@ -41,7 +43,7 @@ VALUES
 ('Diego César Moraes',  25,  '65542339115',  '272644924',  '26/02/1997',  'Rua Guilherme Rocha',  'Campo Grande');
 
 CREATE TABLE [dbo].[SERVICOS](
-	[id] [int] NOT NULL,
+	[id] [int] NOT NULL IDENTITY(1,1),
 	[descricao] [nvarchar](max) NOT NULL,
 	[preco] [money] NOT NULL,
  CONSTRAINT [PK_servicos] PRIMARY KEY CLUSTERED 
@@ -55,3 +57,27 @@ insert into servicos values
 (2, 'Streaming de Vídeos', 47.65),
 (3, 'Audio livros', 9.99),
 (4, 'Streaming de Músicas', 15.47)
+
+CREATE TABLE SERVICOS_CONTRATADOS(
+	id_servicos_contratados int IDENTITY(1,1) PRIMARY KEY,
+	id_servico int NOT NULL,
+	cpf_usuario nvarchar(450) NOT NULL,
+	dt_contratacao date NOT NULL default (getdate())
+)
+
+ALTER TABLE SERVICOS_CONTRATADOS ADD CONSTRAINT FK_SERVICOS_CONTRATADOS_X_SERVICO FOREIGN KEY (id_servico) REFERENCES
+SERVICOS (id);
+
+ALTER TABLE SERVICOS_CONTRATADOS ADD CONSTRAINT FK_SERVICOS_CONTRATADOS_X_USUARIOS FOREIGN KEY (cpf_usuario) REFERENCES
+USUARIOS (cpf);
+
+INSERT INTO SERVICOS_CONTRATADOS VALUES
+(1, '65130399161', DEFAULT),
+(2, '65130399161', DEFAULT),
+(3, '65130399161', DEFAULT),
+(4, '65130399161', DEFAULT),
+(1, '74037505193', DEFAULT),
+(1, '87048220139', DEFAULT),
+(1, '24002714101', DEFAULT),
+(1, '71992341125', DEFAULT),
+(1, '65542339115', DEFAULT)

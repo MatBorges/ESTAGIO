@@ -26,4 +26,3 @@ describe('UsuarioComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-

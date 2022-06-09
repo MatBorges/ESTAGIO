@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace escolaNc.modelos
+namespace escolaNc.Modelos
 {
     public class Usuario
     {
@@ -16,6 +12,5 @@ namespace escolaNc.modelos
         public string data_nasc { get; set; }
         public string endereco { get; set; }
         public string cidade { get; set; }
-
     }
 }

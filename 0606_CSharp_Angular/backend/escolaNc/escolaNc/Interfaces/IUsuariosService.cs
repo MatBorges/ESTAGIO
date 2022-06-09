@@ -1,14 +1,13 @@
-﻿using escolaNc.modelos;
-using System;
+﻿using escolaNc.Modelos;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace escolaNc.Interfaces{
-    public interface IUsuariosService{
-        public List<Usuario> RetornaUsuario();
-        public Usuario InsereUsuario(Usuario usuarios);
-        public Usuario AtualizaUsuario(Usuario usuarios);
-        public bool RemoveUsuario(string cpf);  
+namespace escolaNc.Interfaces
+{
+    public interface IUsuariosService
+    {
+        public List<Usuario> RetornaUsuarios();
+        public Usuario InsereUsuario(Usuario usuario);
+        public Usuario AtualizaUsuario(Usuario usuario);
+        public bool RemoveUsuario(string cpf);
     }
 }

@@ -38,11 +38,14 @@ namespace escolaNc
             });
 
             services.AddDbContext<EscolaContext>(
-                context => context.UseSqlServer(Configuration.GetConnectionString("Default"))
+                context => context
+                    .UseSqlServer(Configuration.GetConnectionString("Default"))
             );
             services.AddCors();
             services.AddTransient<IUsuariosService, UsuariosService>();
-        }
+            services.AddTransient<IServicosService, ServicosService>();
+            services.AddTransient<IContratacaoService, ContratacaoService>();
+;        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -53,6 +56,7 @@ namespace escolaNc
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "escolaNc v1"));
             }
+
             app.UseCors(
                 x => x
                 .AllowAnyHeader()
