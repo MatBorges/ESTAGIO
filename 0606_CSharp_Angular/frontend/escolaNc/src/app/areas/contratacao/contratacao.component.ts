@@ -58,5 +58,18 @@ export class ContratacaoComponent implements OnInit {
     });
   }
 
-  public contrataServico() {}
+  public contrataServico() {
+    if(this.envio.length == 0){
+      alert(`Selecione ao menos um serviço`)
+      return
+    }
+    this.api.post('contratação', this.envio).subscribe({
+
+    }),
+    (erro: any) => {
+      alert(erro.error)
+    },
+    () => {this.buscaCpf()};
+    () => {this.envio()};
+  }
 }
