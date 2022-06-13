@@ -9,6 +9,7 @@ namespace escolaNc.Data
         public DbSet<Usuario> USUARIOS { get; set; }
         public DbSet<Servico> SERVICOS {get; set; }
         public DbSet<Contratados> SERVICOS_CONTRATADOS { get; set; }
+        public DbSet<Login> LOGIN { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

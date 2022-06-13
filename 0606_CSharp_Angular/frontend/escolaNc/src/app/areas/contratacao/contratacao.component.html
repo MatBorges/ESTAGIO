@@ -5,7 +5,7 @@
     </div>
     <div class="col-lg-2">
       <button class="btn btn-outline-success" (click)="buscaCpf()">
-        <i class="bi bi-search"> </i>
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </div>
@@ -18,9 +18,13 @@
         <div class="card">
           <div class="card-body">
             <p><strong>Produto: </strong>{{ item.descricao }}</p>
-            <p><strong>Valor: </strong>{{ item.preco.toFixed(2)}}</p>
+            <p><strong>Valor: </strong>{{ item.preco.toFixed(2) }}</p>
             <p><strong>Assinante desde: </strong>{{ item.dt_contratacao | date }}</p>
-            <button class="btn btn-outline-danger">Remover</button>
+            <div style="display: flex; justify-content: flex-end;">
+              <button class="btn btn-sm me-2 btn-outline-danger" >
+                <i class="bi bi-x"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -31,16 +35,19 @@
         <thead>
           <tr>
             <td>Tipo</td>
-            <td style="text-align: right">Preço</td>
+            <td>Preço</td>
             <td style="text-align: center">Selecionar</td>
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let item of servicos;  let i = index;">
+          <tr *ngFor="let item of servicosCheck; let i = index">
             <td>{{ item.descricao }}</td>
-            <td style="text-align: right">{{ item.preco.toFixed(2)}}</td>
+            <td>{{ item.preco }}</td>
             <td style="text-align: center">
-              <input type="checkbox" (input)="insereServico(item.id)" id=""/>
+              <input
+                [checked]="item.check"
+                type="checkbox"
+                (input)="insereServico(item)"/>
             </td>
           </tr>
         </tbody>

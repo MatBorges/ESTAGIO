@@ -13,7 +13,6 @@ namespace escolaNc.Controllers
     [Route("[controller]")]
     public class ContratacaoController : ControllerBase
     {
-
         private readonly IContratacaoService _contratacaoService;
 
         public ContratacaoController(IContratacaoService contratacaoService)

@@ -10,6 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CadastroComponent } from './areas/cadastro/cadastro.component';
 import { ServicosComponent } from './areas/servicos/servicos.component';
 import { ContratacaoComponent } from './areas/contratacao/contratacao.component';
+import { LoginComponent } from './areas/login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContratacaoComponent } from './areas/contratacao/contratacao.component'
     CadastroComponent,
     UsuarioComponent,
     ServicosComponent,
-    ContratacaoComponent
+    ContratacaoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

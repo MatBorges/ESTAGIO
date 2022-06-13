@@ -1,7 +1,6 @@
 using escolaNc.Modelos;
 using System.Collections.Generic;
 
-
 namespace escolaNc.Interfaces
 {
     public interface IContratacaoService
