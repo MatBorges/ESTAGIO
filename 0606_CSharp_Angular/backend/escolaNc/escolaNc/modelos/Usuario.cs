@@ -1,9 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace escolaNc.Modelos
-{
-    public class Usuario
-    {
+namespace escolaNc.Modelos {
+    public class Usuario {
         public string nome { get; set; }
         public int idade { get; set; }
         [Key]

@@ -13,7 +13,6 @@ namespace escolaNc.Data
         {
             _config = config;
         }
-
         public DataTable ExecutaProc(string Procedure)
         {
 			var conexao = new SqlConnection(_config.GetConnectionString("Default"));
